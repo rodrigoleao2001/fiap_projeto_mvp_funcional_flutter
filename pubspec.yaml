@@ -1,0 +1,27 @@
+name: projeto_static_void_flutter
+description: A Flutter project for Static Void.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.3 # Dependência para chamadas de API
+
+  # Firebase Core & Firestore
+  firebase_core: ^2.16.0
+  cloud_firestore: ^4.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0 # Conjunto de lints recomendados
+
+flutter:
+  uses-material-design: true
